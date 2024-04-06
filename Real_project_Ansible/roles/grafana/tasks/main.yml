@@ -17,6 +17,6 @@
 
 - name: "Check if Grafana is accessible."
   uri:
-    url: http://127.0.0.1:3000
+    url: http://52.90.85.93:3000
     method: GET
     status_code: 200
